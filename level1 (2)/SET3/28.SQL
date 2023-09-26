@@ -1,0 +1,7 @@
+-- **Problem 28:**
+
+-- - **Prerequisite**: Understand how to order data in SQL / MongoDB
+-- - **Problem**: Write a query to fetch all rides, ordered by **`fare`** in descending order.
+
+select * from rides 
+order by fare desc;
